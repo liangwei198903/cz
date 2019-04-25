@@ -1,0 +1,166 @@
+div.phone{
+	height: 1015px;
+/*	border: 1px solid #ddd;*/
+}
+#login-img{
+	width: 440px;
+	min-height: 900px;
+/*	border:1px solid #000;*/
+	background: url(../imgs/login-bg.png) no-repeat;
+	margin-bottom:20px;
+}
+div.main h1{
+	font-family: "华文行楷";
+	font-size: 60px;
+	opacity:0.4;
+	margin:50px 250px;
+	color:#020206;
+	transition:
+}
+ div.main p.sta{
+	margin-right:20px ;
+	font-weight:800;
+	font-size: 16px;
+}
+div.main p span{
+	color:red;
+	font-weight:600;
+	font-size: 12px;
+}
+#login-table{
+	width: 430px;
+	height: 830px;
+	background: #fff;
+	border-radius:60px;
+	border:5px solid #9A9A9A;
+}
+#login-table div.inputs div{
+	width: 380px;
+	height: 50px;
+	border:1px solid #ddd;
+	margin:30px 0px 10px 30px;
+	border-radius:10px;
+}
+#form1 span{
+	font-size: 16px;
+	margin-left:20px;
+	padding:10px;
+	opacity: 0;
+	color:#98C9F9;
+}
+#form1 s{
+display: inline-block;
+height: 16px;
+width: 16px;
+/*opacity: 0;*/
+}
+#login-table div.inputs div:hover{
+	border:1px solid #0aa1ed;
+}
+#login-table div.inputs div>input{
+	width: 290px;
+	height: 48px;
+	outline:none;
+	border:0;
+	font-size: 20px;
+	color:#000;
+	opacity:.6;
+}
+#login-table div.inputs i{
+	width: 46px;
+	height: 46px;
+	display:block;
+	background: url(../imgs/touxiang.png) no-repeat ;
+	float:left;
+}
+#login-table div.inputs div.upwd i{
+	background: url(../imgs/touxiang.png) no-repeat -50px 0px ;
+}
+#login-table div.ckb{
+	width: 360px;
+	height: 30px;
+	line-height:30px;
+	margin:50px 0 0 50px;
+	border-radius:10px;
+	font-size: 12px;
+}
+#login-table div.ckb a{
+	color:#0aa1ed;
+}
+#login-table>div.ckb a:hover{
+	color:#E35050;
+	text-decoration: underline;
+}
+#btn1{
+	display: inline-block;
+	width: 380px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color:#fff;
+	background: linear-gradient(to bottom,#0aa1ed,#81BDF9 100%);
+	font-size: 22px;
+	margin:50px 0 0 30px;
+	border-radius:10px;
+	outline:none;
+	opacity:.8;
+}
+#btn1:hover{
+	opacity:1;
+}
+ #login-table hr{
+	width: 390px;
+	margin:110px 10px 25px 20px;
+}
+#login-table div.other{
+	margin-top:-10px;
+}
+#login-table div.other a{
+	color:#666;
+	font-size: 14px;
+	padding-left:30px;;
+}
+#login-table div.other>s{
+	display:inline-block;
+	width: 25px;
+	height: 16px;
+	background: url(../imgs/zhuce-iconlist.png) no-repeat;
+}
+#login-table div.other>s.wx{
+	background: url(../imgs/zhuce-iconlist.png) no-repeat 0 0px;
+}
+#login-table div.other>s.wx:hover{
+	background: url(../imgs/zhuce-iconlist-hover.png) no-repeat 0 0px;
+}
+#login-table div.other>s.sina{
+	background: url(../imgs/zhuce-iconlist.png) no-repeat -30px 0px;
+}
+#login-table div.other>s.sina:hover{
+	background: url(../imgs/zhuce-iconlist-hover.png) no-repeat -30px 0px;
+}
+#login-table div.other>s.qq{
+	background: url(../imgs/zhuce-iconlist.png) no-repeat -60px 0px;
+}
+#login-table div.other>s.qq:hover{
+	background: url(../imgs/zhuce-iconlist-hover.png) no-repeat -60px 0px;
+}
+#login-table div.other>a:last-child{
+	display:inline-block;
+	float:right;
+	padding-right:20px;
+	color:#0aa1ed;
+}
+#login-table div.other>a:last-child:hover{
+	color:#E35050;
+	text-decoration: underline;
+}
+#border{
+	width: 444px;
+	height: 844px;
+	border:1px solid #000;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:60px;
+	border:3px solid #666;
+}

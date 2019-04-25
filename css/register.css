@@ -1,0 +1,178 @@
+div.main{
+	width: 1000px;
+	height: 840px;
+/*	border:1px solid #ddd;*/
+	background: #EEF3FA;
+	margin-bottom:10px;
+}
+div.main h1{
+	font-family: "华文行楷";
+	font-size: 60px;
+	opacity:0.4;
+	margin:50px 50px 50px 250px;
+	color:#020206;
+}
+div.main p.rf{
+	margin-right:30px ;
+	font-weight:600;
+	font-size: 16px;
+}
+div.main p.rf>span{
+	font-size: 14PX;
+	color:red;
+}
+div.main p a{
+	color:red;
+	font-weight:500;
+	font-size: 12px;
+}
+div.main h2{
+	font-size:34px;
+}
+#register-img-left{
+	width: 320px;
+	min-height: 650px;
+	background: url(../imgs/register.png) no-repeat 70px 37px;
+	margin-bottom:20px;
+}
+#register-table{
+	width: 678px;
+	height: 600px;
+	background:#EEF3FA;
+}
+#register-table>div{
+	width: 400px;
+	height: 50px;
+	margin-top:40px;
+	margin-left:60px;
+	background: #fff;
+	border-radius:10px;
+	border:1px solid #ddd;
+}
+#register-table>div.pwd{
+	margin-top:35px;
+}
+#register-table>div:hover{
+	border:1px solid #0aa1ed;
+}
+#register-table>div input{
+	height: 48px;
+	width: 290px;
+	font-size: 16px;
+	outline:none;
+	border:0;
+	padding-left:20px;
+	font-size:22px;
+	color:#666;
+}
+#register-table>div i{
+	border-right:1px solid #ddd;
+	display:block;
+	width: 50px;
+	height: 50px;
+	float:left;
+	background: url(../imgs/touxiang.png) no-repeat;
+}
+#register-table>div.yzm i{
+	background: url(../imgs/touxiang.png) no-repeat -140px 0px;;
+}
+#register-table>div.pwd i{
+	background: url(../imgs/touxiang.png) no-repeat -42px 0px;;
+}
+#register-table>div.npwd i{
+	background: url(../imgs/touxiang.png) no-repeat -90px 0px;;
+}
+#register-table>div.tel{
+	position:relative;
+}
+#register-table>div.tel input{
+	padding-left:60px;
+	width: 250px;;
+}
+#register-table>div.tel s{
+	display:block;
+	width: 46px;
+	height: 46px;
+	font-size: 22px;
+	float:left;
+	position:absolute;
+	left:48px;
+	line-height:46px;
+	padding-left:20px;
+	text-decoration: none;
+}
+#register-table>div.yzm input{
+	width: 290px ;
+}
+#register-table button.yzm{
+	display:block;
+	border:1px solid #ddd;
+	width: 85px;
+	height: 30px;
+	margin:5px 0px 0 370px ;
+	text-align: center;
+	line-height: 30px;
+	color:#fff;
+	background: linear-gradient(to bottom,#81BDF9 0,#0aa1ed 100%);
+	border-radius:5px;
+	font-weight: normal;
+	opacity:.8;
+}
+ #register-table button.yzm:hover{
+	opacity:1;
+}
+#register-table p{
+	padding-top:20px;
+	padding-left:120px;
+}
+ button.btn{
+	width: 400px;
+	height: 50px;
+	color:#fff;
+	background: linear-gradient(to bottom,#81BDF9 0,#0aa1ed 100%);
+	font-size: 22px;
+	margin:40px 0 0 60px;
+	border-radius:10px;
+	outline:none;
+	opacity:.8;
+}
+ button:hover{
+	opacity:1;
+}
+#register-table b{
+display: inline-block;
+	font-size:16px;
+	color:#98C9F9;
+	margin-top:15px;
+	margin-left:70px;
+	font-weight:400;
+	opacity: 0;	
+	width: 208px;
+	;
+}
+#register-table u{
+	color:#817C7C;
+	font-weight: 900;
+	display: inline-block;
+	height: 30px;
+	width: 80px;
+	border:1px solid #ddd;
+	font-size: 22px;
+	text-decoration: none;
+	margin-left:65px;
+	border-radius:5px;
+	text-align: center;
+	line-height: 30px;
+/*	background: url(../imgs/yingyong_06.png) no-repeat -120px -120px;*/
+}
+#register-table span{
+display: inline-block;
+height: 16px;
+width: 16px;
+/*background: url(../imgs/ok.png) no-repeat 0 0 ;*/
+opacity: 1;
+}
+#footer div.phone>div.rf img:first-child {
+    height: 15px;
+    width: 18px;
+}

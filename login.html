@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录页面</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<!---引入头部----->
+<!-- 	<iframe src="header.html" frameborder="0" id="header"></iframe> -->
+	<div id="header"></div>
+	<!---登录---->
+	<div class="main clear">
+		<p class="rf sta">当前状态：<span id="s1">尚未登录</span></p>
+		<h1>欢迎来到锤子科技</h1>
+		<div id="login-img" class="lf">
+		</div>
+		<div id="border" class="rf">
+		<div id="login-table">
+			<img src="imgs/login-logo.png" alt="" style="border-radius:60px;">
+			<form id="form1"> 
+				<div class="inputs">
+					<div>
+						<i ></i>
+						<input type="text" placeholder="手机号" name="phone" id="phone">
+						<s></s>
+					</div>
+					<span>请输入您注册的手机号</span>
+					<div class="upwd">
+						<i></i>
+						<input type="password" placeholder="密码" name="upwd" id="upwd">
+						<s></s>
+					</div>
+					<span>请输入1-6位数字密码</span>
+				</div>
+				<div class="ckb">
+					<input type="checkbox">自动登录
+					<a href="#" class="rf">忘记密码?</a>
+				</div> 
+				<a id="btn1">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+ 			</form> 
+			<hr>
+			<div class="other">	
+				<a href="#">使用其他方式登录:&nbsp;</a>
+				<s class="wx"></s><s class="sina"></s><s class="qq"></s>
+				<a href="#">海外手机号码登录>></a>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!---引入底部----->
+	<div id="footer"></div>
+<!-- 	<iframe src="footer.html" frameborder="0" id="footer"></iframe> -->
+	<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+	<script src="js/login.js"></script>
+	<script src="js/footer.js"></script>
+</body>
+</html>
